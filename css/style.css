@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+a{
+    text-decoration: none;
+    font-size: .8rem;
+    font-weight: bold;
+    color: #5C5C58;
+}
+header{
+    height: 15vh;
+}
+main{
+    /* background-color: blueviolet; */
+    height: 80vh;
+}
+footer{
+    background-color: brown;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #FBE6EF;
+}
+.header__logo{
+    background-color: #FBE6EF;
+    width: 50vw;
+    display: block;
+    align-content: center;
+}
+.header__logo--img {
+    
+    height: 100%;
+    margin-left: 3rem;
+}
+.header__nav{
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    justify-content:end;
+    gap: 1rem;
+    padding: 1rem 3rem 1rem 1rem;
+}
+.header__nav--link{
+    transition: color 0.5s ease;
+    transition: font-size 0.5s ease;
+}
+.header__nav--link:hover{
+    color: #ff167b;
+    font-size: 0.85rem;
+    text-decoration: underline;
+}
+.contenedor{
+    display: flex;
+    padding: 2rem;
+}
+.contenedor--gris{
+    background-color: #b12b2b;
+}
+.contenedor--left{
+    width: 60vw;
+}
+.contenedor__img{
+    width: 100%;
+}
+
+.bienvenida{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 1rem;
+}
+.bienvenida h1{
+    font-family: "Caveat", cursive;
+    font-size: 3rem;
+    color: #ff167b;
+}
+.contenedor__frases{
+    height: 15rem;
+    display: flex;
+    align-content: center;
+    padding: 1rem;
+    background-image: url(../assets/bg/asset_upload_file2488_674610.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: center;
+    text-align: center;
+}
+.contenedor__frases--txt{
+    color: rgb(213, 253, 253);
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-end; */
+    justify-content: center;
+    width: 45vw;
+    font-weight: bolder;
+    font-size: 1.01rem;
+    gap: 1rem;
+}

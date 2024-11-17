@@ -127,12 +127,7 @@ h3{
     justify-content: center;
     text-align: center;
 }
-.img-bg1{
-    background-image: url(../assets/bg/asset_upload_file2488_674610.jpg);
-}
-.img-bg2{
-    background-image: url(../assets/bg/shutterstock_353023190.jpg);
-}
+
 .contenedor__frases--txt{
     color: rgb(213, 253, 253);
     display: flex;
@@ -238,4 +233,28 @@ h3{
 }
 .contenedor__main--txt li{
     padding-top: 1rem;
+}
+.portada{
+    width: 100vw;
+    height: 45vh;
+    background-color: #ec7777;
+}
+.img-bg1 {
+    background-image: url(../assets/bg/asset_upload_file2488_674610.jpg);
+}
+
+.img-bg2 {
+    background-image: url(../assets/bg/shutterstock_353023190.jpg);
+}
+
+/* sitio de las curvas https: //refine.dev/blog/css-rounded-corners/#example-2 */
+.img_nosotros {
+    background-image: url('../assets/bg/perros-en-adopcion-10.jpg');
+    background-size: cover;
+    border-radius: 60% 30% 30% 20%;
+}
+.img_mision {
+    background-image: url('../assets/bg/63ceba1ae7b26aa4ad28478f_adopcion de razas de perros pequeñas.jpg');
+    background-size: cover;
+    border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
 }

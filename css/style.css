@@ -12,13 +12,16 @@ a{
 header{
     height: 15vh;
 }
-main{
-    /* background-color: blueviolet; */
-    height: 80vh;
-}
+
 footer{
-    background-color: brown;
+    background-color: #ff167b;
+    font-size: x-small;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 h1, h2, h3{
     font-family: "Caveat", cursive;
     text-align: center;

@@ -334,6 +334,25 @@ h3{
     background-color: #fff;
 }
 
+.section--formulario{
+    display: flex;
+    justify-content: center
+}
+
+.formulario__contacto{
+    width: 50vw;
+}
+.formulario__contacto .formulario__input{
+    display: flex;
+    flex-direction: column;
+}
+.formulario__contacto .formulario__input input{
+    flex: 1;
+}
+.formulario__contacto .formulario__input textarea{
+    height: 5.5rem;
+}
+
 .card--identificacion{
     border-radius: 3px;
     height: 25rem;

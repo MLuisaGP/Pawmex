@@ -220,6 +220,9 @@ h3{
 
 .contenedor__main{
     width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .contenedor__main span{
@@ -246,6 +249,19 @@ h3{
 .img-bg2 {
     background-image: url(../assets/bg/shutterstock_353023190.jpg);
 }
+.img-volunatiado1, .img-volunatiado2, .img-volunatiado3{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img-volunatiado1 {
+    background-image: url(../assets/voluntarios/voluntariado1.jpg);
+}
+.img-volunatiado2 {
+    background-image: url(../assets/voluntarios/volunariado2.webp);
+}
+.img-volunatiado3 {
+    background-image: url(../assets/voluntarios/voluntariado3.jpg);
+}
 
 /* sitio de las curvas https: //refine.dev/blog/css-rounded-corners/#example-2 */
 .img_nosotros {
@@ -255,6 +271,11 @@ h3{
 }
 .img_mision {
     background-image: url('../assets/bg/63ceba1ae7b26aa4ad28478f_adopcion de razas de perros pequeñas.jpg');
+    background-size: cover;
+    border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
+}
+.img_volunatiado1 {
+    background-image: url('../assets/bg/voluntariado.webp');
     background-size: cover;
     border-radius: 70% 30% 30% 70% / 60% 40% 60% 40%;
 }

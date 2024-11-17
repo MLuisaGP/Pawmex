@@ -28,11 +28,13 @@
         </nav>
     </header>
     <main>
-        <div>
+    <div class="formulario ">
+        <h3>Busqueda:</h3>
+        <form class="formulario__busqueda" action="">
             <fieldset>
-                <legend>Filtro</legend>
-                <form action="">
-                    <div>
+                <legend>General:</legend>
+                <div class="formulario__fieldset--contenedor">
+                    <div class="formulario__input">
                         <label for="especie">Especie</label>
                         <select name="especie" id="">
                             <option value="todos">Todos</option>
@@ -40,7 +42,7 @@
                             <option value="gato">Gato</option>
                         </select>
                     </div>
-                    <div>
+                    <div class="formulario__input">
                         <label for="sexo">Sexo</label>
                         <select name="sexo" id="">
                             <option value="todos">Todos</option>
@@ -48,7 +50,7 @@
                             <option value="macho">Macho</option>
                         </select>
                     </div>
-                    <div>
+                    <div class="formulario__input">
                         <label for="etapa">Etapa de Vida</label>
                         <select name="etapa" id="">
                             <option value="todos">Todos</option>
@@ -57,7 +59,7 @@
                             <option value="anciano">Anciano</option>
                         </select>
                     </div>
-                    <div>
+                    <div class="formulario__input">
                         <label for="tamanio">Tamaño</label>
                         <select name="tamanio" id="">
                             <option value="todos">Todos</option>
@@ -67,7 +69,7 @@
                             <option value="x-grande">X-Grande</option>
                         </select>
                     </div>
-                    <div>
+                    <div class="formulario__input">
                         <label for="municipio">Municipio</label>
                         <select name="municipio" id="">
                             <option value="todos">Todos</option>
@@ -77,12 +79,14 @@
                             <option value="Guaymas">Guaymas</option>
                         </select>
                     </div>
-                    <div>
-                        <input type="submit" value="Buscar">
-                    </div>
-                </form>
+                </div>
+    
             </fieldset>
-        </div>
+            <div class="formulario__submit">
+                <input type="submit" value="Buscar">
+            </div>
+        </form>
+    </div>
         <main>
             <div class="section">
                 <div class="cards">

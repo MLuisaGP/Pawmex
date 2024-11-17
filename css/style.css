@@ -167,8 +167,10 @@ h3{
 .cards{
     display: flex;
     gap: 2rem;
+    flex-wrap: wrap
 }
 .card{
+    width: 19vw;
     background: #FFF;
     display: flex;
     flex-direction: column;

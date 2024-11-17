@@ -78,7 +78,7 @@ h3{
     transition: color 0.5s ease;
     transition: font-size 0.5s ease;
 }
-.header__nav--link:hover{
+.header__nav--link:hover, .actual{
     color: #ff167b;
     font-size: 0.85rem;
     /* text-decoration: underline; */

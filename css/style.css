@@ -312,3 +312,45 @@ h3{
     color: #ff167b;
     background-color: #fff;
 }
+
+.card--identificacion{
+    border-radius: 3px;
+    height: 25rem;
+    
+
+}
+.card--identificacion .card__img{
+    display: grid;
+    justify-items: center;
+    border-radius: 3px;
+    width: 10rem;
+    height: 10rem;
+    background-color: #f15b9c;
+    overflow: hidden;
+}
+.card--identificacion .card__img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+}
+.card--identificacion .card__main{
+    width: 100%;
+    padding: 2rem 2rem 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-items: flex-end;
+    gap: 10px;
+}
+.card__main__especie{
+    background-color: #FBE6EF;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 5px;
+}
+.card__main__caracteristicas{
+    font-size: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

@@ -83,6 +83,13 @@ h3{
     font-size: 0.85rem;
     /* text-decoration: underline; */
 }
+.header__nav--auth {
+    color: #ff167b;
+}
+.header__nav--auth:hover {
+    color: #ec7777;
+    text-decoration: underline;
+}
 .slider{
     display: flex;
     padding: 2rem;

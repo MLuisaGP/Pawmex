@@ -5,10 +5,15 @@ Este repositorio contiene el template de una pagina de adopciones con el nombre 
 ## Instalación
 
 Para poder utilizar este repositorio se utiliza alguno de los siguientes comandos segun el caso:
+
 **SSH**:
+
 `    git clone git@github.com:MLuisaGP/Pawmex.git`
+
 ó
+
 **HTTPS**:
+
 `    git clone https://github.com/MLuisaGP/Pawmex.git`
 
 Para correr el proyecto hay que:

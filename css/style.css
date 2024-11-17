@@ -414,9 +414,9 @@ h3{
     align-items: center;
 }
 .formulario__login .formulario__input label{
-    width: 5rem;
-    text-align: end;
-    font-size: 14px;
+    width: 6rem;
+    text-align: start;
+    font-size: 12px;
 }
 .formulario__login {
    gap: 1rem;

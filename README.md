@@ -29,7 +29,7 @@ Siguiendo estos pasos ya seras capaz de uilizar el template.
 
 Creado por [MluisaGP](https://github.com/MLuisaGP) programadora y desarrolladora de sistemas.
 
-Si deseas colavorar en este proyecto no dudes en contactarme mediante [GitHub](https://github.com/MLuisaGP)
+Si deseas colaborar en este proyecto no dudes en contactarme mediante [GitHub](https://github.com/MLuisaGP)
 
 ## Licencia
 
